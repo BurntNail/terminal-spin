@@ -1,15 +1,15 @@
 # Terminal
 
 > **Note**  
-> this repo is a fork of [panr/hugo-theme-terminal](https://github.com/panr/hugo-theme-terminal)
+> this repo is a fork of a fork of [panr/hugo-theme-terminal](https://github.com/panr/hugo-theme-terminal)
 > which adds support for writing *KaTeX*
 >
 > to install it, one can run the following:
 > - install the theme
 > ```shell
-> git submodule add https://github.com/amtoine/hugo-theme-terminal-katex themes/hugo-theme-terminal-katex
+> git submodule add https://github.com/burntnail/terminal-spin themes/terminal-spin
 > ```
-> - change the `theme` field in `config.toml` to `"hugo-theme-terminal-katex"`
+> - change the `theme` field in `config.toml` to `"terminal-spin"`
 > - enable *KaTeX* in the file you want by adding `katex: true` to the front-matter of the page
 > - write some beautiful formulae, e.g. `$\int_{-\infty}^{\infty} e^{-x^2} dx$`
 
