@@ -75,5 +75,10 @@
   <link href="{{ .RelPermalink }}" rel="alternate" type="application/json" title="{{ $.Site.Title }}" />
 {{ end }}
 
+<!-- katex support -->
+{{ if .Page.Params.katex }}
+    {{ partial "katex.html" . }}
+{{ end }}
+
 <!-- Extended head section-->
 {{ partial "extended_head.html" . }}
